@@ -29,6 +29,14 @@ public class RouteKey {
     }
 
     @Override
+    public String toString() {
+        return "RouteKey{" +
+            "method='" + method + '\'' +
+            ", path='" + path + '\'' +
+            '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) {
             return true;
